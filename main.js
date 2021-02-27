@@ -3,6 +3,12 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
+document.addEventListener('DOMContentLoaded', (event) => {
+  const hiddenError = document.getElementById('modal')
+  hiddenError.setAttribute('class', 'hidden')
+
+  mimicServerCall(url)
+})
 
 
 
